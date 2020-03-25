@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="DELETE">
+        <active>true</active>
+        <copied_from display_value="">522b3f781bb7401089448515ec4bcbc4</copied_from>
+        <description>Log: Test of When needed with a date of today should fail. When needed date is ${u_when_needed}</description>
+        <display_name>Log</display_name>
+        <inputs/>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>1</order>
+        <snapshot/>
+        <step_config display_value="Log">58ab71985f30220012b44adb7f46661e</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-24 23:07:25</sys_created_on>
+        <sys_id>c55b33b81bb7401089448515ec4bcb20</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>Log</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_atf_step_c55b33b81bb7401089448515ec4bcb20</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-24 23:38:55</sys_updated_on>
+        <table/>
+        <test display_value="">305bff781bb7401089448515ec4bcbb5</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="DELETE" query="document_key=c55b33b81bb7401089448515ec4bcb20"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>c55b33b81bb7401089448515ec4bcb20</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-24 23:07:25</sys_created_on>
+        <sys_id>095b33b81bb7401089448515ec4bcb21</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-24 23:16:04</sys_updated_on>
+        <value>Test of When needed with a date of today should fail. When needed date is ${u_when_needed}</value>
+        <variable display_value="">523c79985f30220012b44adb7f46663a</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="id=c55b33b81bb7401089448515ec4bcb20"/>
+    <sys_element_mapping action="DELETE">
+        <field>log</field>
+        <id>c55b33b81bb7401089448515ec4bcb20</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-24 23:07:25</sys_created_on>
+        <sys_id>0d5b33b81bb7401089448515ec4bcb21</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-24 23:16:04</sys_updated_on>
+        <table>var__m_atf_input_variable_58ab71985f30220012b44adb7f46661e</table>
+        <value>Test of When needed with a date of today should fail. When needed date is ${u_when_needed}</value>
+    </sys_element_mapping>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>343543a6db8bd344b2e05d00cf9619e9</instance_id>
+        <instance_name>dev63826</instance_name>
+        <name>sys_atf_step_c55b33b81bb7401089448515ec4bcb20</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step"><sys_atf_step action="INSERT_OR_UPDATE"><active>true</active><copied_from display_value="">522b3f781bb7401089448515ec4bcbc4</copied_from><description>Log: Test of When needed with a date of today should fail. When needed date is ${u_when_needed}</description><display_name>Log</display_name><inputs/><inputs/><mugshots_cache_json/><notes/><order>1</order><snapshot/><step_config display_value="Log">58ab71985f30220012b44adb7f46661e</step_config><sys_class_name>sys_atf_step</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-03-24 23:07:25</sys_created_on><sys_id>c55b33b81bb7401089448515ec4bcb20</sys_id><sys_mod_count>10</sys_mod_count><sys_name>Log</sys_name><sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>sys_atf_step_c55b33b81bb7401089448515ec4bcb20</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-03-24 23:38:55</sys_updated_on><table/><test display_value="">305bff781bb7401089448515ec4bcbb5</test><timeout/><warning_message/></sys_atf_step><sys_variable_value action="delete_multiple" query="document_key=c55b33b81bb7401089448515ec4bcb20"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>c55b33b81bb7401089448515ec4bcb20</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-03-24 23:07:25</sys_created_on><sys_id>095b33b81bb7401089448515ec4bcb21</sys_id><sys_mod_count>3</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-03-24 23:16:04</sys_updated_on><value>Test of When needed with a date of today should fail. When needed date is ${u_when_needed}</value><variable display_value="">523c79985f30220012b44adb7f46663a</variable></sys_variable_value><sys_element_mapping action="delete_multiple" query="id=c55b33b81bb7401089448515ec4bcb20"/><sys_element_mapping action="INSERT_OR_UPDATE"><field>log</field><id>c55b33b81bb7401089448515ec4bcb20</id><sys_created_by>admin</sys_created_by><sys_created_on>2020-03-24 23:07:25</sys_created_on><sys_id>0d5b33b81bb7401089448515ec4bcb21</sys_id><sys_mod_count>3</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-03-24 23:16:04</sys_updated_on><table>var__m_atf_input_variable_58ab71985f30220012b44adb7f46661e</table><value>Test of When needed with a date of today should fail. When needed date is ${u_when_needed}</value></sys_element_mapping></record_update>]]></payload>
+        <payload_hash>1019105619</payload_hash>
+        <record_name>Log</record_name>
+        <reverted_from/>
+        <source>b1c23bfc1b77401089448515ec4bcb3c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-24 23:38:55</sys_created_on>
+        <sys_id>228280411bf7401089448515ec4bcbfa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1710ee9cded0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-24 23:38:55</sys_updated_on>
+        <type>Test Step</type>
+        <update_guid>aa828041def74010a3495b6ee17d9ef9</update_guid>
+        <update_guid_history>aa828041def74010a3495b6ee17d9ef9:1019105619,12828041e7f7401020323bf3f326cbee:1057225748,7f4d333c8bb74010312524e2b441e8b7:809556472,338cf7b841b7401072e5ae176216bf44:-134881,f9fbfbb897b7401053e2585ddf3163ad:1785726523,455b33b8a3b74010106bea684fc62527:-579537576,415b33b8b0b740100875f1c846978523:1170895376</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-24 23:38:55</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_step">sys_atf_step</sys_db_object>
+        <sys_id>7fa8e27e42da4641a38949f2340e7f19</sys_id>
+        <sys_metadata>c55b33b81bb7401089448515ec4bcb20</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Log</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_atf_step_c55b33b81bb7401089448515ec4bcb20</sys_update_name>
+        <sys_update_version display_value="sys_atf_step_c55b33b81bb7401089448515ec4bcb20">228280411bf7401089448515ec4bcbfa</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-24 23:38:55</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
