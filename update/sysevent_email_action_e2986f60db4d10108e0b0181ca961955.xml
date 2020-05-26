@@ -40,8 +40,11 @@
 <p><span style="font-family: verdana, geneva;">Number: ${number}</span></p>
 <p><span style="font-family: verdana, geneva;">Short description: ${short_description}</span></p>
 <p><span style="font-family: verdana, geneva;">Please complete this task as soon as possible.</span></p>
-<p><span style="font-family: verdana, geneva;"><code>${mail_script:CountOverdueNeedItTasksAssignedTo}</code></span></p>
+<p><span style="font-family: verdana, geneva;">${mail_script:CountOverdueNeedItTasksAssignedTo}</span></p>
+<p>&nbsp;</p>
+<p><span style="font-family: verdana, geneva;"><code></code></span></p>
 <p><span style="font-family: verdana, geneva;">Click here to view the NeedIt Task record: ${URI_REF}</span></p>
+<p><span style="font-family: verdana, geneva;">${mailto:mailto.closeneedittask}</span></p>
 <pre><code></code></pre>]]></message_html>
         <message_list/>
         <message_text/>
@@ -51,7 +54,7 @@
         <push_message_only>false</push_message_only>
         <recipient_fields>assigned_to</recipient_fields>
         <recipient_groups/>
-        <recipient_users>henswort@au1.ibm.com</recipient_users>
+        <recipient_users/>
         <reply_to/>
         <send_self>true</send_self>
         <sms_alternate/>
@@ -64,7 +67,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>e2986f60db4d10108e0b0181ca961955</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>Overdue NeedIt Task</sys_name>
         <sys_overrides/>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
@@ -72,7 +75,7 @@
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>sysevent_email_action_e2986f60db4d10108e0b0181ca961955</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-05-25 07:07:47</sys_updated_on>
+        <sys_updated_on>2020-05-26 00:24:37</sys_updated_on>
         <sys_version>2</sys_version>
         <template/>
         <type>email</type>
